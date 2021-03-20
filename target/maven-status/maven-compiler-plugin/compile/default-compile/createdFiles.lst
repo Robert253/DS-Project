@@ -11,6 +11,8 @@ org\DS\robertproject\SmartBuildingGRPC\HeatingServiceGrpc$HeatingServiceStub.cla
 GRPC\HeatingServer.class
 org\DS\robertproject\SmartBuildingGRPC\boolResponseOrBuilder.class
 org\DS\robertproject\SmartBuildingGRPC\boolRequest$Builder.class
+jmDNS\Discovering.class
+GRPC\SpeakersServer.class
 org\DS\robertproject\SmartBuildingGRPC\boolRequest.class
 GRPC\LampServer$SampleListener.class
 org\DS\robertproject\SmartBuildingGRPC\boolRequest$1.class
@@ -43,6 +45,8 @@ org\DS\robertproject\SmartBuildingGRPC\lampResp$1.class
 org\DS\robertproject\SmartBuildingGRPC\heatingResponseOrBuilder.class
 org\DS\robertproject\SmartBuildingGRPC\HeatingServiceGrpc$HeatingServiceMethodDescriptorSupplier.class
 org\DS\robertproject\SmartBuildingGRPC\speakerRespOrBuilder.class
+GRPC\SpeakersServer$1.class
+jmDNS\Registering.class
 org\DS\robertproject\SmartBuildingGRPC\HeatingServiceImpl.class
 org\DS\robertproject\SmartBuildingGRPC\lampResp.class
 org\DS\robertproject\SmartBuildingGRPC\SpeakerServiceGrpc.class
@@ -79,7 +83,9 @@ org\DS\robertproject\SmartBuildingGRPC\LampServiceImpl$1.class
 org\DS\robertproject\SmartBuildingGRPC\SpeakerServiceImpl$1.class
 org\DS\robertproject\SmartBuildingGRPC\heatingResponse$Builder.class
 org\DS\robertproject\SmartBuildingGRPC\HeatingServiceGrpc$1.class
+GRPC\SpeakersServer$SampleListener.class
 org\DS\robertproject\SmartBuildingGRPC\SpeakerServiceGrpc$SpeakerServiceImplBase.class
+jmDNS\Discovering$SampleListener.class
 Models\Light.class
 org\DS\robertproject\SmartBuildingGRPC\stringRequest.class
 org\DS\robertproject\SmartBuildingGRPC\LampServiceGrpc$LampServiceImplBase.class

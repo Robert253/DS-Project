@@ -70,23 +70,22 @@ public final class HeatingServiceImpl {
       "\001(\010\"\034\n\nvalRequest\022\016\n\006length\030\003 \001(\005\"\035\n\013val" +
       "Response\022\016\n\006length\030\003 \001(\005\"T\n\017heatingRespo" +
       "nse\022\r\n\005aname\030\004 \001(\t\022\016\n\006status\030\005 \001(\t\022\023\n\013te" +
-      "mperature\030\006 \001(\005\022\r\n\005speed\030\007 \001(\0052\234\004\n\016Heati" +
-      "ngService\022R\n\020initialAppliance\022\030.SmartBui" +
-      "ldingGRPC.Empty\032\".SmartBuildingGRPC.heat" +
-      "ingResponse\"\000\022O\n\nchangeTemp\022\035.SmartBuild" +
-      "ingGRPC.valRequest\032\036.SmartBuildingGRPC.v" +
-      "alResponse\"\0000\001\022S\n\016changeFanSpeed\022\035.Smart" +
-      "BuildingGRPC.valRequest\032\036.SmartBuildingG" +
-      "RPC.valResponse\"\0000\001\022J\n\005onOff\022\036.SmartBuil" +
-      "dingGRPC.boolRequest\032\037.SmartBuildingGRPC" +
-      ".boolResponse\"\000\022\\\n\023changeApplianceName\022 " +
-      ".SmartBuildingGRPC.stringRequest\032!.Smart" +
-      "BuildingGRPC.stringResponse\"\000\022f\n\031changeA" +
-      "pplianceNameStream\022 .SmartBuildingGRPC.s" +
-      "tringRequest\032!.SmartBuildingGRPC.stringR" +
-      "esponse\"\000(\0010\001B>\n&org.DS.robertproject.Sm" +
-      "artBuildingGRPCB\022HeatingServiceImplP\001b\006p" +
-      "roto3"
+      "mperature\030\006 \001(\005\022\r\n\005speed\030\007 \001(\0052\223\004\n\016Heati" +
+      "ngService\022O\n\rinitialDevice\022\030.SmartBuildi" +
+      "ngGRPC.Empty\032\".SmartBuildingGRPC.heating" +
+      "Response\"\000\022O\n\nchangeTemp\022\035.SmartBuilding" +
+      "GRPC.valRequest\032\036.SmartBuildingGRPC.valR" +
+      "esponse\"\0000\001\022S\n\016changeFanSpeed\022\035.SmartBui" +
+      "ldingGRPC.valRequest\032\036.SmartBuildingGRPC" +
+      ".valResponse\"\0000\001\022J\n\005onOff\022\036.SmartBuildin" +
+      "gGRPC.boolRequest\032\037.SmartBuildingGRPC.bo" +
+      "olResponse\"\000\022Y\n\020changeDeviceName\022 .Smart" +
+      "BuildingGRPC.stringRequest\032!.SmartBuildi" +
+      "ngGRPC.stringResponse\"\000\022c\n\026changeDeviceN" +
+      "ameStream\022 .SmartBuildingGRPC.stringRequ" +
+      "est\032!.SmartBuildingGRPC.stringResponse\"\000" +
+      "(\0010\001B>\n&org.DS.robertproject.SmartBuildi" +
+      "ngGRPCB\022HeatingServiceImplP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

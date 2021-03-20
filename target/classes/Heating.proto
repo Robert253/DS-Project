@@ -7,7 +7,7 @@ option java_outer_classname = "HeatingServiceImpl";
 package SmartBuildingGRPC;
 
 service HeatingService {
-  rpc initialAppliance(Empty) returns (heatingResponse) {}
+  rpc initialDevice(Empty) returns (heatingResponse) {}
   
   rpc changeTemp(valRequest) returns (stream valResponse) {}
   
@@ -15,9 +15,9 @@ service HeatingService {
   
   rpc onOff(boolRequest) returns (boolResponse) {}
   
-  rpc changeApplianceName(stringRequest) returns (stringResponse) {}	
+  rpc changeDeviceName(stringRequest) returns (stringResponse) {}	
   
-  rpc changeApplianceNameStream(stream stringRequest) returns (stream stringResponse) {}
+  rpc changeDeviceNameStream(stream stringRequest) returns (stream stringResponse) {}
 
 }
 

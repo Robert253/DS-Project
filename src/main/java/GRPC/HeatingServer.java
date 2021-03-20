@@ -101,7 +101,7 @@ public class HeatingServer extends HeatingServiceImplBase{
 	}
 
 	@Override
-	public void initialAppliance(Empty request, StreamObserver<heatingResponse> responseObserver) {
+	public void initialDevice(Empty request, StreamObserver<heatingResponse> responseObserver) {
 		// TODO Auto-generated method stub
 		System.out.println("Receiving initial appliance request for TV ");
 		String status;
@@ -190,7 +190,7 @@ public class HeatingServer extends HeatingServiceImplBase{
 	}
 
 	@Override
-	public void changeApplianceName(stringRequest request, StreamObserver<stringResponse> responseObserver) {
+	public void changeDeviceName(stringRequest request, StreamObserver<stringResponse> responseObserver) {
 		// TODO Auto-generated method stub
 		String name = request.getText();
 		System.out.println("Changing projector name to "+name);

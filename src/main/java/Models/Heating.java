@@ -14,11 +14,11 @@ public class Heating {
 			this.speed=1;
 		}
 
-		public String getAppliance() {
+		public String getDevice() {
 			return appliance;
 		}
 
-		public void setAppliance(String appliance) {
+		public void setDevice(String appliance) {
 			this.appliance = appliance;
 		}
 
