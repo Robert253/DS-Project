@@ -1,0 +1,52 @@
+syntax = "proto3";#
+
+package org.DS.robertproject.SmartBuildingGRPC;
+
+service SecuritycameraService{
+
+  rpc initialDevice(Empty) returns (cameraResponse) {}
+  
+  rpc changeCamera(stringRequest) returns (stream stringResponse) {}
+  
+  rpc changeVolume(valRequest) returns (stream valResponse) {}
+  
+  rpc onOff(boolRequest) returns (booleanResponse) {}
+  
+  rpc changeDeviceName(stringRequest) returns (stringResponse) {}	
+
+}
+
+message Empty {
+
+}
+
+message stringRequest {
+	string text = 1;
+}
+
+message stringResponse {
+	string text = 1;
+}
+
+message booleanRequest {
+	bool msg = 2;
+}
+
+message booleanResponse {
+	bool msg = 2;
+}
+
+message valueRequest {
+  int32 length = 3;
+}
+
+message valueResponse {
+  int32 length = 3;
+}
+
+message cameraResponse{
+  string aname = 4;
+  string status = 5;
+  string cam = 6;
+  int32 volume = 7;
+}
