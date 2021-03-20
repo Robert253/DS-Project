@@ -16,7 +16,7 @@ private static final long serialVersionUID = 0L;
     super(builder);
   }
   private heatingResponse() {
-    name_ = "";
+    aname_ = "";
     status_ = "";
     temperature_ = 0;
     speed_ = 0;
@@ -49,7 +49,7 @@ private static final long serialVersionUID = 0L;
           case 34: {
             java.lang.String s = input.readStringRequireUtf8();
 
-            name_ = s;
+            aname_ = s;
             break;
           }
           case 42: {
@@ -100,34 +100,34 @@ private static final long serialVersionUID = 0L;
             org.DS.robertproject.SmartBuildingGRPC.heatingResponse.class, org.DS.robertproject.SmartBuildingGRPC.heatingResponse.Builder.class);
   }
 
-  public static final int NAME_FIELD_NUMBER = 4;
-  private volatile java.lang.Object name_;
+  public static final int ANAME_FIELD_NUMBER = 4;
+  private volatile java.lang.Object aname_;
   /**
-   * <code>string name = 4;</code>
+   * <code>string aname = 4;</code>
    */
-  public java.lang.String getName() {
-    java.lang.Object ref = name_;
+  public java.lang.String getAname() {
+    java.lang.Object ref = aname_;
     if (ref instanceof java.lang.String) {
       return (java.lang.String) ref;
     } else {
       com.google.protobuf.ByteString bs = 
           (com.google.protobuf.ByteString) ref;
       java.lang.String s = bs.toStringUtf8();
-      name_ = s;
+      aname_ = s;
       return s;
     }
   }
   /**
-   * <code>string name = 4;</code>
+   * <code>string aname = 4;</code>
    */
   public com.google.protobuf.ByteString
-      getNameBytes() {
-    java.lang.Object ref = name_;
+      getAnameBytes() {
+    java.lang.Object ref = aname_;
     if (ref instanceof java.lang.String) {
       com.google.protobuf.ByteString b = 
           com.google.protobuf.ByteString.copyFromUtf8(
               (java.lang.String) ref);
-      name_ = b;
+      aname_ = b;
       return b;
     } else {
       return (com.google.protobuf.ByteString) ref;
@@ -200,8 +200,8 @@ private static final long serialVersionUID = 0L;
   @java.lang.Override
   public void writeTo(com.google.protobuf.CodedOutputStream output)
                       throws java.io.IOException {
-    if (!getNameBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 4, name_);
+    if (!getAnameBytes().isEmpty()) {
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 4, aname_);
     }
     if (!getStatusBytes().isEmpty()) {
       com.google.protobuf.GeneratedMessageV3.writeString(output, 5, status_);
@@ -221,8 +221,8 @@ private static final long serialVersionUID = 0L;
     if (size != -1) return size;
 
     size = 0;
-    if (!getNameBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, name_);
+    if (!getAnameBytes().isEmpty()) {
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, aname_);
     }
     if (!getStatusBytes().isEmpty()) {
       size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, status_);
@@ -251,8 +251,8 @@ private static final long serialVersionUID = 0L;
     org.DS.robertproject.SmartBuildingGRPC.heatingResponse other = (org.DS.robertproject.SmartBuildingGRPC.heatingResponse) obj;
 
     boolean result = true;
-    result = result && getName()
-        .equals(other.getName());
+    result = result && getAname()
+        .equals(other.getAname());
     result = result && getStatus()
         .equals(other.getStatus());
     result = result && (getTemperature()
@@ -270,8 +270,8 @@ private static final long serialVersionUID = 0L;
     }
     int hash = 41;
     hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + NAME_FIELD_NUMBER;
-    hash = (53 * hash) + getName().hashCode();
+    hash = (37 * hash) + ANAME_FIELD_NUMBER;
+    hash = (53 * hash) + getAname().hashCode();
     hash = (37 * hash) + STATUS_FIELD_NUMBER;
     hash = (53 * hash) + getStatus().hashCode();
     hash = (37 * hash) + TEMPERATURE_FIELD_NUMBER;
@@ -411,7 +411,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public Builder clear() {
       super.clear();
-      name_ = "";
+      aname_ = "";
 
       status_ = "";
 
@@ -445,7 +445,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public org.DS.robertproject.SmartBuildingGRPC.heatingResponse buildPartial() {
       org.DS.robertproject.SmartBuildingGRPC.heatingResponse result = new org.DS.robertproject.SmartBuildingGRPC.heatingResponse(this);
-      result.name_ = name_;
+      result.aname_ = aname_;
       result.status_ = status_;
       result.temperature_ = temperature_;
       result.speed_ = speed_;
@@ -497,8 +497,8 @@ private static final long serialVersionUID = 0L;
 
     public Builder mergeFrom(org.DS.robertproject.SmartBuildingGRPC.heatingResponse other) {
       if (other == org.DS.robertproject.SmartBuildingGRPC.heatingResponse.getDefaultInstance()) return this;
-      if (!other.getName().isEmpty()) {
-        name_ = other.name_;
+      if (!other.getAname().isEmpty()) {
+        aname_ = other.aname_;
         onChanged();
       }
       if (!other.getStatus().isEmpty()) {
@@ -540,71 +540,71 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    private java.lang.Object name_ = "";
+    private java.lang.Object aname_ = "";
     /**
-     * <code>string name = 4;</code>
+     * <code>string aname = 4;</code>
      */
-    public java.lang.String getName() {
-      java.lang.Object ref = name_;
+    public java.lang.String getAname() {
+      java.lang.Object ref = aname_;
       if (!(ref instanceof java.lang.String)) {
         com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        name_ = s;
+        aname_ = s;
         return s;
       } else {
         return (java.lang.String) ref;
       }
     }
     /**
-     * <code>string name = 4;</code>
+     * <code>string aname = 4;</code>
      */
     public com.google.protobuf.ByteString
-        getNameBytes() {
-      java.lang.Object ref = name_;
+        getAnameBytes() {
+      java.lang.Object ref = aname_;
       if (ref instanceof String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        name_ = b;
+        aname_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
     /**
-     * <code>string name = 4;</code>
+     * <code>string aname = 4;</code>
      */
-    public Builder setName(
+    public Builder setAname(
         java.lang.String value) {
       if (value == null) {
     throw new NullPointerException();
   }
   
-      name_ = value;
+      aname_ = value;
       onChanged();
       return this;
     }
     /**
-     * <code>string name = 4;</code>
+     * <code>string aname = 4;</code>
      */
-    public Builder clearName() {
+    public Builder clearAname() {
       
-      name_ = getDefaultInstance().getName();
+      aname_ = getDefaultInstance().getAname();
       onChanged();
       return this;
     }
     /**
-     * <code>string name = 4;</code>
+     * <code>string aname = 4;</code>
      */
-    public Builder setNameBytes(
+    public Builder setAnameBytes(
         com.google.protobuf.ByteString value) {
       if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
       
-      name_ = value;
+      aname_ = value;
       onChanged();
       return this;
     }

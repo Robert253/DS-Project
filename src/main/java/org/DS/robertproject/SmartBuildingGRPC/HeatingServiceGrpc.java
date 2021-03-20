@@ -59,94 +59,94 @@ public final class HeatingServiceGrpc {
      return getInitialApplianceMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-      org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeTemperatureMethod;
+  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest,
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeTempMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "changeTemperature",
-      requestType = org.DS.robertproject.SmartBuildingGRPC.valueRequest.class,
-      responseType = org.DS.robertproject.SmartBuildingGRPC.valueResponse.class,
+      fullMethodName = SERVICE_NAME + '/' + "changeTemp",
+      requestType = org.DS.robertproject.SmartBuildingGRPC.valRequest.class,
+      responseType = org.DS.robertproject.SmartBuildingGRPC.valResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
-  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-      org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeTemperatureMethod() {
-    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest, org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeTemperatureMethod;
-    if ((getChangeTemperatureMethod = HeatingServiceGrpc.getChangeTemperatureMethod) == null) {
+  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest,
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeTempMethod() {
+    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeTempMethod;
+    if ((getChangeTempMethod = HeatingServiceGrpc.getChangeTempMethod) == null) {
       synchronized (HeatingServiceGrpc.class) {
-        if ((getChangeTemperatureMethod = HeatingServiceGrpc.getChangeTemperatureMethod) == null) {
-          HeatingServiceGrpc.getChangeTemperatureMethod = getChangeTemperatureMethod = 
-              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.valueRequest, org.DS.robertproject.SmartBuildingGRPC.valueResponse>newBuilder()
+        if ((getChangeTempMethod = HeatingServiceGrpc.getChangeTempMethod) == null) {
+          HeatingServiceGrpc.getChangeTempMethod = getChangeTempMethod = 
+              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.valRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
               .setFullMethodName(generateFullMethodName(
-                  "SmartBuildingGRPC.HeatingService", "changeTemperature"))
+                  "SmartBuildingGRPC.HeatingService", "changeTemp"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.valueRequest.getDefaultInstance()))
+                  org.DS.robertproject.SmartBuildingGRPC.valRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.valueResponse.getDefaultInstance()))
-                  .setSchemaDescriptor(new HeatingServiceMethodDescriptorSupplier("changeTemperature"))
+                  org.DS.robertproject.SmartBuildingGRPC.valResponse.getDefaultInstance()))
+                  .setSchemaDescriptor(new HeatingServiceMethodDescriptorSupplier("changeTemp"))
                   .build();
           }
         }
      }
-     return getChangeTemperatureMethod;
+     return getChangeTempMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-      org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeSpeedMethod;
+  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest,
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeFanSpeedMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "changeSpeed",
-      requestType = org.DS.robertproject.SmartBuildingGRPC.valueRequest.class,
-      responseType = org.DS.robertproject.SmartBuildingGRPC.valueResponse.class,
+      fullMethodName = SERVICE_NAME + '/' + "changeFanSpeed",
+      requestType = org.DS.robertproject.SmartBuildingGRPC.valRequest.class,
+      responseType = org.DS.robertproject.SmartBuildingGRPC.valResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
-  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-      org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeSpeedMethod() {
-    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valueRequest, org.DS.robertproject.SmartBuildingGRPC.valueResponse> getChangeSpeedMethod;
-    if ((getChangeSpeedMethod = HeatingServiceGrpc.getChangeSpeedMethod) == null) {
+  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest,
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeFanSpeedMethod() {
+    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.valRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse> getChangeFanSpeedMethod;
+    if ((getChangeFanSpeedMethod = HeatingServiceGrpc.getChangeFanSpeedMethod) == null) {
       synchronized (HeatingServiceGrpc.class) {
-        if ((getChangeSpeedMethod = HeatingServiceGrpc.getChangeSpeedMethod) == null) {
-          HeatingServiceGrpc.getChangeSpeedMethod = getChangeSpeedMethod = 
-              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.valueRequest, org.DS.robertproject.SmartBuildingGRPC.valueResponse>newBuilder()
+        if ((getChangeFanSpeedMethod = HeatingServiceGrpc.getChangeFanSpeedMethod) == null) {
+          HeatingServiceGrpc.getChangeFanSpeedMethod = getChangeFanSpeedMethod = 
+              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.valRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
               .setFullMethodName(generateFullMethodName(
-                  "SmartBuildingGRPC.HeatingService", "changeSpeed"))
+                  "SmartBuildingGRPC.HeatingService", "changeFanSpeed"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.valueRequest.getDefaultInstance()))
+                  org.DS.robertproject.SmartBuildingGRPC.valRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.valueResponse.getDefaultInstance()))
-                  .setSchemaDescriptor(new HeatingServiceMethodDescriptorSupplier("changeSpeed"))
+                  org.DS.robertproject.SmartBuildingGRPC.valResponse.getDefaultInstance()))
+                  .setSchemaDescriptor(new HeatingServiceMethodDescriptorSupplier("changeFanSpeed"))
                   .build();
           }
         }
      }
-     return getChangeSpeedMethod;
+     return getChangeFanSpeedMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.booleanRequest,
-      org.DS.robertproject.SmartBuildingGRPC.booleanResponse> getOnOffMethod;
+  private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest,
+      org.DS.robertproject.SmartBuildingGRPC.boolResponse> getOnOffMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "onOff",
-      requestType = org.DS.robertproject.SmartBuildingGRPC.booleanRequest.class,
-      responseType = org.DS.robertproject.SmartBuildingGRPC.booleanResponse.class,
+      requestType = org.DS.robertproject.SmartBuildingGRPC.boolRequest.class,
+      responseType = org.DS.robertproject.SmartBuildingGRPC.boolResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.booleanRequest,
-      org.DS.robertproject.SmartBuildingGRPC.booleanResponse> getOnOffMethod() {
-    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.booleanRequest, org.DS.robertproject.SmartBuildingGRPC.booleanResponse> getOnOffMethod;
+  public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest,
+      org.DS.robertproject.SmartBuildingGRPC.boolResponse> getOnOffMethod() {
+    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.boolResponse> getOnOffMethod;
     if ((getOnOffMethod = HeatingServiceGrpc.getOnOffMethod) == null) {
       synchronized (HeatingServiceGrpc.class) {
         if ((getOnOffMethod = HeatingServiceGrpc.getOnOffMethod) == null) {
           HeatingServiceGrpc.getOnOffMethod = getOnOffMethod = 
-              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.booleanRequest, org.DS.robertproject.SmartBuildingGRPC.booleanResponse>newBuilder()
+              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.boolResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "SmartBuildingGRPC.HeatingService", "onOff"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.booleanRequest.getDefaultInstance()))
+                  org.DS.robertproject.SmartBuildingGRPC.boolRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.booleanResponse.getDefaultInstance()))
+                  org.DS.robertproject.SmartBuildingGRPC.boolResponse.getDefaultInstance()))
                   .setSchemaDescriptor(new HeatingServiceMethodDescriptorSupplier("onOff"))
                   .build();
           }
@@ -255,22 +255,22 @@ public final class HeatingServiceGrpc {
 
     /**
      */
-    public void changeTemperature(org.DS.robertproject.SmartBuildingGRPC.valueRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse> responseObserver) {
-      asyncUnimplementedUnaryCall(getChangeTemperatureMethod(), responseObserver);
+    public void changeTemp(org.DS.robertproject.SmartBuildingGRPC.valRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
+      asyncUnimplementedUnaryCall(getChangeTempMethod(), responseObserver);
     }
 
     /**
      */
-    public void changeSpeed(org.DS.robertproject.SmartBuildingGRPC.valueRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse> responseObserver) {
-      asyncUnimplementedUnaryCall(getChangeSpeedMethod(), responseObserver);
+    public void changeFanSpeed(org.DS.robertproject.SmartBuildingGRPC.valRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
+      asyncUnimplementedUnaryCall(getChangeFanSpeedMethod(), responseObserver);
     }
 
     /**
      */
-    public void onOff(org.DS.robertproject.SmartBuildingGRPC.booleanRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.booleanResponse> responseObserver) {
+    public void onOff(org.DS.robertproject.SmartBuildingGRPC.boolRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getOnOffMethod(), responseObserver);
     }
 
@@ -298,25 +298,25 @@ public final class HeatingServiceGrpc {
                 org.DS.robertproject.SmartBuildingGRPC.heatingResponse>(
                   this, METHODID_INITIAL_APPLIANCE)))
           .addMethod(
-            getChangeTemperatureMethod(),
+            getChangeTempMethod(),
             asyncServerStreamingCall(
               new MethodHandlers<
-                org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-                org.DS.robertproject.SmartBuildingGRPC.valueResponse>(
-                  this, METHODID_CHANGE_TEMPERATURE)))
+                org.DS.robertproject.SmartBuildingGRPC.valRequest,
+                org.DS.robertproject.SmartBuildingGRPC.valResponse>(
+                  this, METHODID_CHANGE_TEMP)))
           .addMethod(
-            getChangeSpeedMethod(),
+            getChangeFanSpeedMethod(),
             asyncServerStreamingCall(
               new MethodHandlers<
-                org.DS.robertproject.SmartBuildingGRPC.valueRequest,
-                org.DS.robertproject.SmartBuildingGRPC.valueResponse>(
-                  this, METHODID_CHANGE_SPEED)))
+                org.DS.robertproject.SmartBuildingGRPC.valRequest,
+                org.DS.robertproject.SmartBuildingGRPC.valResponse>(
+                  this, METHODID_CHANGE_FAN_SPEED)))
           .addMethod(
             getOnOffMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                org.DS.robertproject.SmartBuildingGRPC.booleanRequest,
-                org.DS.robertproject.SmartBuildingGRPC.booleanResponse>(
+                org.DS.robertproject.SmartBuildingGRPC.boolRequest,
+                org.DS.robertproject.SmartBuildingGRPC.boolResponse>(
                   this, METHODID_ON_OFF)))
           .addMethod(
             getChangeApplianceNameMethod(),
@@ -364,24 +364,24 @@ public final class HeatingServiceGrpc {
 
     /**
      */
-    public void changeTemperature(org.DS.robertproject.SmartBuildingGRPC.valueRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse> responseObserver) {
+    public void changeTemp(org.DS.robertproject.SmartBuildingGRPC.valRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
       asyncServerStreamingCall(
-          getChannel().newCall(getChangeTemperatureMethod(), getCallOptions()), request, responseObserver);
+          getChannel().newCall(getChangeTempMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void changeSpeed(org.DS.robertproject.SmartBuildingGRPC.valueRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse> responseObserver) {
+    public void changeFanSpeed(org.DS.robertproject.SmartBuildingGRPC.valRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
       asyncServerStreamingCall(
-          getChannel().newCall(getChangeSpeedMethod(), getCallOptions()), request, responseObserver);
+          getChannel().newCall(getChangeFanSpeedMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void onOff(org.DS.robertproject.SmartBuildingGRPC.booleanRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.booleanResponse> responseObserver) {
+    public void onOff(org.DS.robertproject.SmartBuildingGRPC.boolRequest request,
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getOnOffMethod(), getCallOptions()), request, responseObserver);
     }
@@ -430,23 +430,23 @@ public final class HeatingServiceGrpc {
 
     /**
      */
-    public java.util.Iterator<org.DS.robertproject.SmartBuildingGRPC.valueResponse> changeTemperature(
-        org.DS.robertproject.SmartBuildingGRPC.valueRequest request) {
+    public java.util.Iterator<org.DS.robertproject.SmartBuildingGRPC.valResponse> changeTemp(
+        org.DS.robertproject.SmartBuildingGRPC.valRequest request) {
       return blockingServerStreamingCall(
-          getChannel(), getChangeTemperatureMethod(), getCallOptions(), request);
+          getChannel(), getChangeTempMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public java.util.Iterator<org.DS.robertproject.SmartBuildingGRPC.valueResponse> changeSpeed(
-        org.DS.robertproject.SmartBuildingGRPC.valueRequest request) {
+    public java.util.Iterator<org.DS.robertproject.SmartBuildingGRPC.valResponse> changeFanSpeed(
+        org.DS.robertproject.SmartBuildingGRPC.valRequest request) {
       return blockingServerStreamingCall(
-          getChannel(), getChangeSpeedMethod(), getCallOptions(), request);
+          getChannel(), getChangeFanSpeedMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public org.DS.robertproject.SmartBuildingGRPC.booleanResponse onOff(org.DS.robertproject.SmartBuildingGRPC.booleanRequest request) {
+    public org.DS.robertproject.SmartBuildingGRPC.boolResponse onOff(org.DS.robertproject.SmartBuildingGRPC.boolRequest request) {
       return blockingUnaryCall(
           getChannel(), getOnOffMethod(), getCallOptions(), request);
     }
@@ -487,8 +487,8 @@ public final class HeatingServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<org.DS.robertproject.SmartBuildingGRPC.booleanResponse> onOff(
-        org.DS.robertproject.SmartBuildingGRPC.booleanRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<org.DS.robertproject.SmartBuildingGRPC.boolResponse> onOff(
+        org.DS.robertproject.SmartBuildingGRPC.boolRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getOnOffMethod(), getCallOptions()), request);
     }
@@ -503,8 +503,8 @@ public final class HeatingServiceGrpc {
   }
 
   private static final int METHODID_INITIAL_APPLIANCE = 0;
-  private static final int METHODID_CHANGE_TEMPERATURE = 1;
-  private static final int METHODID_CHANGE_SPEED = 2;
+  private static final int METHODID_CHANGE_TEMP = 1;
+  private static final int METHODID_CHANGE_FAN_SPEED = 2;
   private static final int METHODID_ON_OFF = 3;
   private static final int METHODID_CHANGE_APPLIANCE_NAME = 4;
   private static final int METHODID_CHANGE_APPLIANCE_NAME_STREAM = 5;
@@ -530,17 +530,17 @@ public final class HeatingServiceGrpc {
           serviceImpl.initialAppliance((org.DS.robertproject.SmartBuildingGRPC.Empty) request,
               (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.heatingResponse>) responseObserver);
           break;
-        case METHODID_CHANGE_TEMPERATURE:
-          serviceImpl.changeTemperature((org.DS.robertproject.SmartBuildingGRPC.valueRequest) request,
-              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse>) responseObserver);
+        case METHODID_CHANGE_TEMP:
+          serviceImpl.changeTemp((org.DS.robertproject.SmartBuildingGRPC.valRequest) request,
+              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse>) responseObserver);
           break;
-        case METHODID_CHANGE_SPEED:
-          serviceImpl.changeSpeed((org.DS.robertproject.SmartBuildingGRPC.valueRequest) request,
-              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valueResponse>) responseObserver);
+        case METHODID_CHANGE_FAN_SPEED:
+          serviceImpl.changeFanSpeed((org.DS.robertproject.SmartBuildingGRPC.valRequest) request,
+              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse>) responseObserver);
           break;
         case METHODID_ON_OFF:
-          serviceImpl.onOff((org.DS.robertproject.SmartBuildingGRPC.booleanRequest) request,
-              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.booleanResponse>) responseObserver);
+          serviceImpl.onOff((org.DS.robertproject.SmartBuildingGRPC.boolRequest) request,
+              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse>) responseObserver);
           break;
         case METHODID_CHANGE_APPLIANCE_NAME:
           serviceImpl.changeApplianceName((org.DS.robertproject.SmartBuildingGRPC.stringRequest) request,
@@ -611,8 +611,8 @@ public final class HeatingServiceGrpc {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new HeatingServiceFileDescriptorSupplier())
               .addMethod(getInitialApplianceMethod())
-              .addMethod(getChangeTemperatureMethod())
-              .addMethod(getChangeSpeedMethod())
+              .addMethod(getChangeTempMethod())
+              .addMethod(getChangeFanSpeedMethod())
               .addMethod(getOnOffMethod())
               .addMethod(getChangeApplianceNameMethod())
               .addMethod(getChangeApplianceNameStreamMethod())

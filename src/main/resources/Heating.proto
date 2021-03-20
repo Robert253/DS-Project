@@ -9,11 +9,11 @@ package SmartBuildingGRPC;
 service HeatingService {
   rpc initialAppliance(Empty) returns (heatingResponse) {}
   
-  rpc changeTemp(valueRequest) returns (stream valueResponse) {}
+  rpc changeTemp(valRequest) returns (stream valResponse) {}
   
-  rpc changeFanSpeed(valueRequest) returns (stream valueResponse) {}
+  rpc changeFanSpeed(valRequest) returns (stream valResponse) {}
   
-  rpc onOff(booleanRequest) returns (booleanResponse) {}
+  rpc onOff(boolRequest) returns (boolResponse) {}
   
   rpc changeApplianceName(stringRequest) returns (stringResponse) {}	
   
@@ -33,19 +33,19 @@ message stringResponse {
 	string text = 1;
 }
 
-message booleanRequest {
+message boolRequest {
 	bool msg = 2;
 }
 
-message booleanResponse {
+message boolResponse {
 	bool msg = 2;
 }
 
-message valueRequest {
+message valRequest {
   int32 length = 3;
 }
 
-message valueResponse {
+message valResponse {
   int32 length = 3;
 }
 

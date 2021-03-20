@@ -8,14 +8,14 @@ public interface heatingResponseOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>string name = 4;</code>
+   * <code>string aname = 4;</code>
    */
-  java.lang.String getName();
+  java.lang.String getAname();
   /**
-   * <code>string name = 4;</code>
+   * <code>string aname = 4;</code>
    */
   com.google.protobuf.ByteString
-      getNameBytes();
+      getAnameBytes();
 
   /**
    * <code>string status = 5;</code>

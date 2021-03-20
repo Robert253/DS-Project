@@ -30,25 +30,25 @@ public final class HeatingServiceImpl {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SmartBuildingGRPC_stringResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_SmartBuildingGRPC_booleanRequest_descriptor;
+    internal_static_SmartBuildingGRPC_boolRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_SmartBuildingGRPC_booleanRequest_fieldAccessorTable;
+      internal_static_SmartBuildingGRPC_boolRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_SmartBuildingGRPC_booleanResponse_descriptor;
+    internal_static_SmartBuildingGRPC_boolResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_SmartBuildingGRPC_booleanResponse_fieldAccessorTable;
+      internal_static_SmartBuildingGRPC_boolResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_SmartBuildingGRPC_valueRequest_descriptor;
+    internal_static_SmartBuildingGRPC_valRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_SmartBuildingGRPC_valueRequest_fieldAccessorTable;
+      internal_static_SmartBuildingGRPC_valRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_SmartBuildingGRPC_valueResponse_descriptor;
+    internal_static_SmartBuildingGRPC_valResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_SmartBuildingGRPC_valueResponse_fieldAccessorTable;
+      internal_static_SmartBuildingGRPC_valResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SmartBuildingGRPC_heatingResponse_descriptor;
   static final 
@@ -65,28 +65,28 @@ public final class HeatingServiceImpl {
     java.lang.String[] descriptorData = {
       "\n\rHeating.proto\022\021SmartBuildingGRPC\"\007\n\005Em" +
       "pty\"\035\n\rstringRequest\022\014\n\004text\030\001 \001(\t\"\036\n\016st" +
-      "ringResponse\022\014\n\004text\030\001 \001(\t\"\035\n\016booleanReq" +
-      "uest\022\013\n\003msg\030\002 \001(\010\"\036\n\017booleanResponse\022\013\n\003" +
-      "msg\030\002 \001(\010\"\036\n\014valueRequest\022\016\n\006length\030\003 \001(" +
-      "\005\"\037\n\rvalueResponse\022\016\n\006length\030\003 \001(\005\"S\n\017he" +
-      "atingResponse\022\014\n\004name\030\004 \001(\t\022\016\n\006status\030\005 " +
-      "\001(\t\022\023\n\013temperature\030\006 \001(\005\022\r\n\005speed\030\007 \001(\0052" +
-      "\256\004\n\016HeatingService\022R\n\020initialAppliance\022\030" +
-      ".SmartBuildingGRPC.Empty\032\".SmartBuilding" +
-      "GRPC.heatingResponse\"\000\022Z\n\021changeTemperat" +
-      "ure\022\037.SmartBuildingGRPC.valueRequest\032 .S" +
-      "martBuildingGRPC.valueResponse\"\0000\001\022T\n\013ch" +
-      "angeSpeed\022\037.SmartBuildingGRPC.valueReque" +
-      "st\032 .SmartBuildingGRPC.valueResponse\"\0000\001" +
-      "\022P\n\005onOff\022!.SmartBuildingGRPC.booleanReq" +
-      "uest\032\".SmartBuildingGRPC.booleanResponse" +
-      "\"\000\022\\\n\023changeApplianceName\022 .SmartBuildin" +
-      "gGRPC.stringRequest\032!.SmartBuildingGRPC." +
-      "stringResponse\"\000\022f\n\031changeApplianceNameS" +
-      "tream\022 .SmartBuildingGRPC.stringRequest\032" +
-      "!.SmartBuildingGRPC.stringResponse\"\000(\0010\001" +
-      "B>\n&org.DS.robertproject.SmartBuildingGR" +
-      "PCB\022HeatingServiceImplP\001b\006proto3"
+      "ringResponse\022\014\n\004text\030\001 \001(\t\"\032\n\013boolReques" +
+      "t\022\013\n\003msg\030\002 \001(\010\"\033\n\014boolResponse\022\013\n\003msg\030\002 " +
+      "\001(\010\"\034\n\nvalRequest\022\016\n\006length\030\003 \001(\005\"\035\n\013val" +
+      "Response\022\016\n\006length\030\003 \001(\005\"T\n\017heatingRespo" +
+      "nse\022\r\n\005aname\030\004 \001(\t\022\016\n\006status\030\005 \001(\t\022\023\n\013te" +
+      "mperature\030\006 \001(\005\022\r\n\005speed\030\007 \001(\0052\234\004\n\016Heati" +
+      "ngService\022R\n\020initialAppliance\022\030.SmartBui" +
+      "ldingGRPC.Empty\032\".SmartBuildingGRPC.heat" +
+      "ingResponse\"\000\022O\n\nchangeTemp\022\035.SmartBuild" +
+      "ingGRPC.valRequest\032\036.SmartBuildingGRPC.v" +
+      "alResponse\"\0000\001\022S\n\016changeFanSpeed\022\035.Smart" +
+      "BuildingGRPC.valRequest\032\036.SmartBuildingG" +
+      "RPC.valResponse\"\0000\001\022J\n\005onOff\022\036.SmartBuil" +
+      "dingGRPC.boolRequest\032\037.SmartBuildingGRPC" +
+      ".boolResponse\"\000\022\\\n\023changeApplianceName\022 " +
+      ".SmartBuildingGRPC.stringRequest\032!.Smart" +
+      "BuildingGRPC.stringResponse\"\000\022f\n\031changeA" +
+      "pplianceNameStream\022 .SmartBuildingGRPC.s" +
+      "tringRequest\032!.SmartBuildingGRPC.stringR" +
+      "esponse\"\000(\0010\001B>\n&org.DS.robertproject.Sm" +
+      "artBuildingGRPCB\022HeatingServiceImplP\001b\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -118,36 +118,36 @@ public final class HeatingServiceImpl {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SmartBuildingGRPC_stringResponse_descriptor,
         new java.lang.String[] { "Text", });
-    internal_static_SmartBuildingGRPC_booleanRequest_descriptor =
+    internal_static_SmartBuildingGRPC_boolRequest_descriptor =
       getDescriptor().getMessageTypes().get(3);
-    internal_static_SmartBuildingGRPC_booleanRequest_fieldAccessorTable = new
+    internal_static_SmartBuildingGRPC_boolRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_SmartBuildingGRPC_booleanRequest_descriptor,
+        internal_static_SmartBuildingGRPC_boolRequest_descriptor,
         new java.lang.String[] { "Msg", });
-    internal_static_SmartBuildingGRPC_booleanResponse_descriptor =
+    internal_static_SmartBuildingGRPC_boolResponse_descriptor =
       getDescriptor().getMessageTypes().get(4);
-    internal_static_SmartBuildingGRPC_booleanResponse_fieldAccessorTable = new
+    internal_static_SmartBuildingGRPC_boolResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_SmartBuildingGRPC_booleanResponse_descriptor,
+        internal_static_SmartBuildingGRPC_boolResponse_descriptor,
         new java.lang.String[] { "Msg", });
-    internal_static_SmartBuildingGRPC_valueRequest_descriptor =
+    internal_static_SmartBuildingGRPC_valRequest_descriptor =
       getDescriptor().getMessageTypes().get(5);
-    internal_static_SmartBuildingGRPC_valueRequest_fieldAccessorTable = new
+    internal_static_SmartBuildingGRPC_valRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_SmartBuildingGRPC_valueRequest_descriptor,
+        internal_static_SmartBuildingGRPC_valRequest_descriptor,
         new java.lang.String[] { "Length", });
-    internal_static_SmartBuildingGRPC_valueResponse_descriptor =
+    internal_static_SmartBuildingGRPC_valResponse_descriptor =
       getDescriptor().getMessageTypes().get(6);
-    internal_static_SmartBuildingGRPC_valueResponse_fieldAccessorTable = new
+    internal_static_SmartBuildingGRPC_valResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_SmartBuildingGRPC_valueResponse_descriptor,
+        internal_static_SmartBuildingGRPC_valResponse_descriptor,
         new java.lang.String[] { "Length", });
     internal_static_SmartBuildingGRPC_heatingResponse_descriptor =
       getDescriptor().getMessageTypes().get(7);
     internal_static_SmartBuildingGRPC_heatingResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SmartBuildingGRPC_heatingResponse_descriptor,
-        new java.lang.String[] { "Name", "Status", "Temperature", "Speed", });
+        new java.lang.String[] { "Aname", "Status", "Temperature", "Speed", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

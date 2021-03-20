@@ -1,10 +1,10 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "org.DS.robertproject.SmartHomeGRPC";
+option java_package = "org.DS.robertproject.SmartBuildingGRPC";
 option java_outer_classname = "SpeakerServiceImpl";
 
-package SmartHomeGRPC;
+package SmartBuildingGRPC;
 
 // Interface exported by the server.
 
@@ -13,11 +13,11 @@ service SpeakerService {
   
   rpc changeVolume(valRequest) returns (stream valResponse) {}
   
-  rpc mute(BooleanReq) returns (valResponse) {}
+  rpc mute(boolRequest) returns (boolResponse) {}
   
-  rpc onOff(BooleanReq) returns (BooleanRes) {}
+  rpc onOff(boolRequest) returns (boolResponse) {}
   
-  rpc changeDeviceName(StringRequest) returns (StringResponse) {}
+  rpc changeDeviceName(stringRequest) returns (stringResponse) {}
   
 }
 
@@ -25,19 +25,19 @@ message Empty {
 
 }
 
-message StringRequest {
+message stringRequest {
 	string text = 1;
 }
 
-message StringResponse {
+message stringResponse {
 	string text = 1;
 }
 
-message BooleanReq {
+message boolRequest {
 	bool msg = 2;
 }
 
-message BooleanRes {
+message boolResponse {
 	bool msg = 2;
 }
 
