@@ -13,7 +13,7 @@ service SpeakerService {
   
   rpc changeVolume(valRequest) returns (stream valResponse) {}
   
-  rpc mute(boolRequest) returns (boolResponse) {}
+  rpc mute(boolRequest) returns (valResponse) {}
   
   rpc onOff(boolRequest) returns (boolResponse) {}
   

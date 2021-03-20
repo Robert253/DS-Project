@@ -70,19 +70,19 @@ public final class SpeakerServiceImpl {
       " \001(\010\"\034\n\nvalRequest\022\016\n\006length\030\003 \001(\005\"\035\n\013va" +
       "lResponse\022\016\n\006length\030\003 \001(\005\"K\n\013speakerResp" +
       "\022\r\n\005aname\030\004 \001(\t\022\016\n\006status\030\005 \001(\t\022\016\n\006volum" +
-      "e\030\006 \001(\005\022\r\n\005muted\030\007 \001(\0102\242\003\n\016SpeakerServic" +
+      "e\030\006 \001(\005\022\r\n\005muted\030\007 \001(\0102\241\003\n\016SpeakerServic" +
       "e\022K\n\rinitialDevice\022\030.SmartBuildingGRPC.E" +
       "mpty\032\036.SmartBuildingGRPC.speakerResp\"\000\022Q" +
       "\n\014changeVolume\022\035.SmartBuildingGRPC.valRe" +
       "quest\032\036.SmartBuildingGRPC.valResponse\"\0000" +
-      "\001\022I\n\004mute\022\036.SmartBuildingGRPC.boolReques" +
-      "t\032\037.SmartBuildingGRPC.boolResponse\"\000\022J\n\005" +
-      "onOff\022\036.SmartBuildingGRPC.boolRequest\032\037." +
-      "SmartBuildingGRPC.boolResponse\"\000\022Y\n\020chan" +
-      "geDeviceName\022 .SmartBuildingGRPC.stringR" +
-      "equest\032!.SmartBuildingGRPC.stringRespons" +
-      "e\"\000B>\n&org.DS.robertproject.SmartBuildin" +
-      "gGRPCB\022SpeakerServiceImplP\001b\006proto3"
+      "\001\022H\n\004mute\022\036.SmartBuildingGRPC.boolReques" +
+      "t\032\036.SmartBuildingGRPC.valResponse\"\000\022J\n\005o" +
+      "nOff\022\036.SmartBuildingGRPC.boolRequest\032\037.S" +
+      "martBuildingGRPC.boolResponse\"\000\022Y\n\020chang" +
+      "eDeviceName\022 .SmartBuildingGRPC.stringRe" +
+      "quest\032!.SmartBuildingGRPC.stringResponse" +
+      "\"\000B>\n&org.DS.robertproject.SmartBuilding" +
+      "GRPCB\022SpeakerServiceImplP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

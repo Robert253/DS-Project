@@ -1,3 +1,4 @@
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\GRPC\LampServer.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\heatingResponse.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\stringRequest.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\boolRequestOrBuilder.java
@@ -6,10 +7,13 @@ C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\or
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\EmptyOrBuilder.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\stringResponseOrBuilder.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\valRequest.java
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\Models\Heating.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\boolResponseOrBuilder.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\LampServiceImpl.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\LampServiceGrpc.java
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\GRPC\SpeakersServer.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\stringRequestOrBuilder.java
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\GRPC\HeatingServer.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\speakerRespOrBuilder.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\speakerResp.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\boolResponse.java
@@ -24,3 +28,5 @@ C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\or
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\SpeakerServiceGrpc.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\boolRequest.java
 C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\org\DS\robertproject\SmartBuildingGRPC\SpeakerServiceImpl.java
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\Models\Speakers.java
+C:\Users\rober\Desktop\Eclipse Projects\DS-Project-RobertFoster\src\main\java\Models\Light.java

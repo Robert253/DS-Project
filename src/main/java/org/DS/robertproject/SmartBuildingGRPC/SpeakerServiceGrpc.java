@@ -92,21 +92,21 @@ public final class SpeakerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest,
-      org.DS.robertproject.SmartBuildingGRPC.boolResponse> getMuteMethod;
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getMuteMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "mute",
       requestType = org.DS.robertproject.SmartBuildingGRPC.boolRequest.class,
-      responseType = org.DS.robertproject.SmartBuildingGRPC.boolResponse.class,
+      responseType = org.DS.robertproject.SmartBuildingGRPC.valResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest,
-      org.DS.robertproject.SmartBuildingGRPC.boolResponse> getMuteMethod() {
-    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.boolResponse> getMuteMethod;
+      org.DS.robertproject.SmartBuildingGRPC.valResponse> getMuteMethod() {
+    io.grpc.MethodDescriptor<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse> getMuteMethod;
     if ((getMuteMethod = SpeakerServiceGrpc.getMuteMethod) == null) {
       synchronized (SpeakerServiceGrpc.class) {
         if ((getMuteMethod = SpeakerServiceGrpc.getMuteMethod) == null) {
           SpeakerServiceGrpc.getMuteMethod = getMuteMethod = 
-              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.boolResponse>newBuilder()
+              io.grpc.MethodDescriptor.<org.DS.robertproject.SmartBuildingGRPC.boolRequest, org.DS.robertproject.SmartBuildingGRPC.valResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "SmartBuildingGRPC.SpeakerService", "mute"))
@@ -114,7 +114,7 @@ public final class SpeakerServiceGrpc {
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   org.DS.robertproject.SmartBuildingGRPC.boolRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  org.DS.robertproject.SmartBuildingGRPC.boolResponse.getDefaultInstance()))
+                  org.DS.robertproject.SmartBuildingGRPC.valResponse.getDefaultInstance()))
                   .setSchemaDescriptor(new SpeakerServiceMethodDescriptorSupplier("mute"))
                   .build();
           }
@@ -231,7 +231,7 @@ public final class SpeakerServiceGrpc {
     /**
      */
     public void mute(org.DS.robertproject.SmartBuildingGRPC.boolRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getMuteMethod(), responseObserver);
     }
 
@@ -270,7 +270,7 @@ public final class SpeakerServiceGrpc {
             asyncUnaryCall(
               new MethodHandlers<
                 org.DS.robertproject.SmartBuildingGRPC.boolRequest,
-                org.DS.robertproject.SmartBuildingGRPC.boolResponse>(
+                org.DS.robertproject.SmartBuildingGRPC.valResponse>(
                   this, METHODID_MUTE)))
           .addMethod(
             getOnOffMethod(),
@@ -327,7 +327,7 @@ public final class SpeakerServiceGrpc {
     /**
      */
     public void mute(org.DS.robertproject.SmartBuildingGRPC.boolRequest request,
-        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getMuteMethod(), getCallOptions()), request, responseObserver);
     }
@@ -384,7 +384,7 @@ public final class SpeakerServiceGrpc {
 
     /**
      */
-    public org.DS.robertproject.SmartBuildingGRPC.boolResponse mute(org.DS.robertproject.SmartBuildingGRPC.boolRequest request) {
+    public org.DS.robertproject.SmartBuildingGRPC.valResponse mute(org.DS.robertproject.SmartBuildingGRPC.boolRequest request) {
       return blockingUnaryCall(
           getChannel(), getMuteMethod(), getCallOptions(), request);
     }
@@ -432,7 +432,7 @@ public final class SpeakerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<org.DS.robertproject.SmartBuildingGRPC.boolResponse> mute(
+    public com.google.common.util.concurrent.ListenableFuture<org.DS.robertproject.SmartBuildingGRPC.valResponse> mute(
         org.DS.robertproject.SmartBuildingGRPC.boolRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getMuteMethod(), getCallOptions()), request);
@@ -488,7 +488,7 @@ public final class SpeakerServiceGrpc {
           break;
         case METHODID_MUTE:
           serviceImpl.mute((org.DS.robertproject.SmartBuildingGRPC.boolRequest) request,
-              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.boolResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<org.DS.robertproject.SmartBuildingGRPC.valResponse>) responseObserver);
           break;
         case METHODID_ON_OFF:
           serviceImpl.onOff((org.DS.robertproject.SmartBuildingGRPC.boolRequest) request,
